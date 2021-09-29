@@ -10,4 +10,11 @@ ExtractVariablesForTFL.jl contains functions used to combine results from the pr
 Please look into the comments in each script program to see details about how to use them. <br />
 
 <b>Implementation:</b><br />
+include("GroupedCategoricalStats.jl")<br />
+include("GroupedContinuousStats.jl")<br />
+include("ExtractVariablesForTFL.jl")<br />
+
+df_con=GroupedContinuousStats(df1::DataFrame,GroupingVars::Vector{Symbol},InterestedCols::Vector{Symbol})<br />
+df_cate=grouped_categorical_stats(df1::DataFrame,grouping_vars::Vector{Symbol},categorical_vars::Vector{Symbol})<br />
+final_result=GenerateTFL_Table(df_con::DataFrame,df_cate::DataFrame,vars1::Vector,cate_grouping_var::Symbol)<br />
 
