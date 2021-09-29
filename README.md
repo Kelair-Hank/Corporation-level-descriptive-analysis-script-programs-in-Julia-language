@@ -10,23 +10,22 @@ ExtractVariablesForTFL.jl contains functions used to combine results from the pr
 Please look into the comments in each script program to see details about how to use them. <br />
 The final result table will be like the following:<br />
 <br />
-Variables                             categories	                       all
-ContinuousVariable1	                      n	                             449
-	                                    Mean (SD)	                         11.08 (14.42)
-	                                    Median (Min; Max)	                 5.0 (1.0; 72.0)
-	                                    25th and 75th Percentile	         2.0 : 12.0
-	                                    Number (%) of missing values	     0 (0.0%)
+Variables                                   categories	                         all<br />
+ContinuousVariable1	                    n	                                 449<br />
+	                                    Mean (SD)	                         11.08 (14.42)<br />
+	                                    Median (Min; Max)	                 5.0 (1.0; 72.0)<br />
+	                                    25th and 75th Percentile	         2.0 : 12.0<br />
+	                                    Number (%) of missing values	 0 (0.0%)<br />
 		
-CategoricalVariable1	                0	                                 305 (67.9%)
-	                                    1	                                 76 (16.9%)
-	                                    2	                                 35 (7.8%)
-	                                    3	                                 18 (4.0%)
-	                                    4	                                 5 (1.1%)
-	                                    5	                                 5 (1.1%)
-	                                    >5	                               5 (1.1%)
-	                                    Total	                             449
-
-
+CategoricalVariable1	                    0 	                                 305 (67.9%)<br />
+	                                    1	                                 76 (16.9%)<br />
+	                                    2	                                 35 (7.8%)<br />
+	                                    3	                                 18 (4.0%)<br />
+	                                    4	                                 5 (1.1%)<br />
+	                                    5	                                 5 (1.1%)<br />
+	                                    >5	                                 5 (1.1%)<br />
+	                                    Total	                         449<br />
+<br />
 
 <b>Implementation:</b><br />
 include("GroupedCategoricalStats.jl")<br />
