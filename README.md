@@ -7,6 +7,6 @@ Features:
 GroupedCategoricalStats.jl contains functions used to do descriptive analysis on multiple categorical variables (columns) in a tabular data frame grouped into several sub data frames by another categorical variable.
 GroupedContinuousStats.jl contains functions used to do descriptive analysis on multiple continuous variables (columns) in a tabular data frame grouped into several sub data frames by another categorical variable. 
 ExtractVariablesForTFL.jl contains functions used to combine results from the previous 2 programs into a corporation level formally formatted result table (Data frame).
-Please look into the comments in each script program to see how to use them.
+Please look into the comments in each script program to see details about how to use them.
 
 Implementation:
